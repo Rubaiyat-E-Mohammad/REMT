@@ -1,0 +1,53 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Alkatra', cursive;
+	background-color: rgb(33,75,133);
+	color: white;
+}
+footer{
+	padding: 1% 10%;
+	background-color: rgba(0,0,0);
+	color: white;
+}
+.banner-container{
+	height: 100vh;
+}
+.navbar{
+	padding: 1% 1%;
+	background-color: rgba(0,0,0,0.3);
+}
+.nav-link{
+	color: white;
+	font-size: 16px;
+	margin: 1px;
+	border-radius: 5px;
+	transition: 0.6s;
+}
+.nav-link:hover{
+	background: silver;
+	color: black;
+	text-transform: uppercase;
+}
+.banner-container h1{
+	font-size: 2.8rem;
+}
+.hr-style{
+	border-top: 5px solid white;
+}
+.section-title h3{
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+.icon-style{
+	margin: 15px, 15px;
+	background-color: black;
+}
+.star svg{
+	width: 20px;
+}
+#suggestion{
+	background-color: rgba(0, 0, 0,0.3);
+	color: white;
+}
